@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="Window1" Height="450" Width="800">
     <StackPanel HorizontalAlignment="Center">
-        <Label Content="hello!" />
-        <Button Content="кликни"/>
+        <Label x:Name="lab"  Content="hello!" />
+        <Button x:Name="but" Content="кликни" Click="but_Click"/>
     </StackPanel>
 </Window>

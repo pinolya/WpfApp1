@@ -23,5 +23,10 @@ namespace WpfApp1
         {
             InitializeComponent();
         }
+
+        private void but_Click(object sender, RoutedEventArgs e)
+        {
+            lab.Content = "привет";
+        }
     }
 }
